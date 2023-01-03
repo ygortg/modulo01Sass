@@ -1,0 +1,20 @@
+p{
+  background-color: $color-red;
+  span{
+    color: gold;
+  }
+  a{
+    color: blue;
+  }
+  &:hover{
+    color: white;
+  }
+}
+
+body{
+  background-color: blue;
+}
+
+
+//Variáveis
+$color-red: red;
